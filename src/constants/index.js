@@ -1,8 +1,5 @@
 import {
   frontend,
-  backend,
-  ux,
-  prototyping,
   javascript,
   typescript,
   html,
@@ -12,259 +9,281 @@ import {
   tailwind,
   nodejs,
   git,
-  figma,
-  docker,
-  postgresql,
-  rubyrails,
+  vue,
+  github,
+  material,
+  mobx,
+  sass,
+  next,
   graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  bullz,
+  glassfrog,
+  bunz,
+  wom,
+  makers,
   coverhunt,
-  dcc,
-  kelhel,
-  microverse,
-} from '../assets';
+  icwt,
+  makersImg,
+  datarockets,
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "About",
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: "skills",
+    title: "Skills",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "experience",
+    title: "Experiences",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: "Frontend Developer",
     icon: frontend,
-  },
-  {
-    title: 'Backend Developer',
-    icon: backend,
-  },
-  {
-    title: 'UI/UX Design',
-    icon: ux,
-  },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: "html",
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: "css",
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: "javascript",
     icon: javascript,
   },
   {
-    name: 'TypeScript',
+    name: "typescript",
     icon: typescript,
   },
   {
-    name: 'React JS',
+    name: "react",
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
+    name: "reduxtoolkit",
     icon: redux,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
+    name: "node",
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: "vue",
+    icon: vue,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: "next",
+    icon: next,
   },
   {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
+    name: "git",
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: "github",
+    icon: github,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: "mobx",
+    icon: mobx,
   },
+  {
+    name: "tailwind",
+    icon: tailwind,
+  },
+  {
+    name: "material",
+    icon: material,
+  },
+  {
+    name: "sass",
+    icon: sass,
+  },
+  {
+    name: "graphql",
+    icon: graphql,
+  },
+  // {
+  //   name: "bootstrap",
+  //   icon: bootstrap,
+  // },
+  // {
+  //   name: "jquery",
+  //   icon: jquery,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+  // {
+  //   name: "postgresql",
+  //   icon: postgresql,
+  // },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: "FrontEnd Developer Intern",
+    company_name: "SkyDreams",
     icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    iconBg: "#333333",
+    date: "Jan 2019 - Feb 2019 - 2 months",
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    title: "Team Lead, Frontend Developer, Mentor",
+    company_name: "Makers",
+    icon: makersImg,
+    iconBg: "#333333",
+    date: "Mar 2019 - Jun 2022 - 2 years 4 months",
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    title: "Team Lead, Middle Frontend Developer",
+    company_name: "InCodeWeTrust",
+    icon: icwt,
+    iconBg: "#333333",
+    date: "Jul 2021 - Nov 2021 - 5 months",
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    title: "Senior Frontend Developer",
+    company_name: "Datarockets",
+    icon: datarockets,
+    iconBg: "#333333",
+    date: "Dec 2021 - May 2023 - 1 year 6 months",
   },
 ];
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
+    id: "project-1",
+    name: "Bunz",
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      "Every day, thousands of people meet on Bunz to trade for everything from clothing and furniture to houseplants and art.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: bunz,
+    demo: "https://bunz.com/",
   },
+
   {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    id: "project-2",
+    name: "Glassfrog",
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      "Holacracy support tool that helps design and maintain the Holacracy structure in organizations.",
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "restapi",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "scss",
+        color: "pink-text-gradient",
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: glassfrog,
+    demo: "https://www.glassfrog.com/",
+  },
+  {
+    id: "project-3",
+    name: "Makers",
+    description: "Platform for online learning programming.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: makers,
+    demo: "https://makers.kg/courses",
+  },
+  {
+    id: "project-4",
+    name: "Bullz",
+    description:
+      "BULLZ is a social app, focused on video recommendations for all things web3, crypto and blockchain.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bullz,
+    demo: "https://www.bullz.com/",
+  },
+  {
+    id: "project-5",
+    name: "WOM",
+    description: `The WOM Protocol is a brand new user-generated marketing channel that leverages the most effective form of marketing: honest word-of-mouth recommendations.`,
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wom,
+    demo: "https://www.womprotocol.io/",
   },
 ];
 
