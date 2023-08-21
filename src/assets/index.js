@@ -10,9 +10,6 @@ import nairobi from "./backgrounds/nairobi.png";
 import whiteabstract from "./backgrounds/white-abstract.png";
 import worldmap from "./backgrounds/world-map.png";
 
-import logo from "./logo/logo-black.png";
-import logotext from "./logo/logo-text-black.png";
-
 import avat from "./personal/avat.png";
 
 import backend from "./icons/backend.png";
@@ -68,8 +65,6 @@ export {
   nairobi,
   whiteabstract,
   worldmap,
-  logo,
-  logotext,
   avat,
   backend,
   ux,
