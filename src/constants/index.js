@@ -122,26 +122,6 @@ const technologies = [
     name: "graphql",
     icon: graphql,
   },
-  // {
-  //   name: "bootstrap",
-  //   icon: bootstrap,
-  // },
-  // {
-  //   name: "jquery",
-  //   icon: jquery,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
-  // {
-  //   name: "postgresql",
-  //   icon: postgresql,
-  // },
 ];
 
 const experiences = [
