@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";

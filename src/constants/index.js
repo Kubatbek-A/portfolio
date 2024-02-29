@@ -1,5 +1,7 @@
 import {
   frontend,
+  backend,
+  prototyping,
   javascript,
   typescript,
   html,
@@ -20,11 +22,12 @@ import {
   glassfrog,
   bunz,
   wom,
-  makers,
+  cajun,
   coverhunt,
   icwt,
   makersImg,
   datarockets,
+  outside,
 } from "../assets";
 
 export const navLinks = [
@@ -54,6 +57,14 @@ const services = [
   {
     title: "Frontend Developer",
     icon: frontend,
+  },
+  {
+    title: "Fullstack Developer",
+    icon: backend,
+  },
+  {
+    title: "Best Teammate",
+    icon: prototyping,
   },
 ];
 
@@ -147,11 +158,18 @@ const experiences = [
     date: "Jul 2021 - Nov 2021 - 5 months",
   },
   {
-    title: "Senior Frontend Developer",
+    title: "Frontend Developer",
     company_name: "Datarockets",
     icon: datarockets,
     iconBg: "#333333",
     date: "Dec 2021 - May 2023 - 1 year 6 months",
+  },
+    {
+    title: "FullStack Developer",
+    company_name: "Outside Digital",
+    icon: outside,
+    iconBg: "#333333",
+    date: "Sep 2023 - currently",
   },
 ];
 
@@ -178,9 +196,31 @@ const projects = [
     image: bunz,
     demo: "https://bunz.com/",
   },
-
   {
     id: "project-2",
+    name: "Cajun Koi",
+    description:
+      "Cajun Koi is a gamified project that helps people with topics such as selfimprovement, productivity, entrepreneurship and creativity.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cajun,
+    demo: "https://www.cajunkoi.com/",
+  },
+
+  {
+    id: "project-3",
     name: "Glassfrog",
     description:
       "Holacracy support tool that helps design and maintain the Holacracy structure in organizations.",
@@ -200,27 +240,6 @@ const projects = [
     ],
     image: glassfrog,
     demo: "https://www.glassfrog.com/",
-  },
-  {
-    id: "project-3",
-    name: "Makers",
-    description: "Platform for online learning programming.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: makers,
-    demo: "https://makers.kg/courses",
   },
   {
     id: "project-4",
